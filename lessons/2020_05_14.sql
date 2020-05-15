@@ -1,4 +1,5 @@
 /* SELECT */
+USE sakila;
 
 SELECT MIN(rental_rate) FROM film;
 SELECT MAX(rental_rate) FROM film;
